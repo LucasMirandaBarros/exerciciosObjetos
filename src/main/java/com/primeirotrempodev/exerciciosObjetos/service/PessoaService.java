@@ -9,7 +9,7 @@ public class PessoaService {
 
 
 
-    public Pessoa getPessoa(){
+    public Pessoa pegarPessoa(){
 
         Pessoa pessoa = new Pessoa();
         pessoa.setNome("João da Silva");

@@ -16,7 +16,7 @@ public class PessoaController {
 
     @GetMapping("/pessoa")
     public Pessoa pessoa(){
-        return pessoaService.getPessoa();
+        return pessoaService.pegarPessoa();
 
     }
 
